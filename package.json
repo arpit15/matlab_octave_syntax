@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "matlab_octave_syntax",
+  "version": "0.0.1",
+  "description": "Opens matlab .m files with octave syntax highlighting",
+  "author": "Arpit Agarwal",
+  "main": "lib/plugin.js",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "jupyterlab": {
+    "extension": true
+  },
+  "scripts": {},
+  "dependencies": {
+    "@jupyterlab/application": "^=2.1.2",
+    "@jupyterlab/codemirror": "^2.2.0",
+    "@types/codemirror": "0.0.97"
+  },
+  "devDependencies": {}
+}
